@@ -82,13 +82,13 @@ function SmallHouse1({ }) {
                         <img onClick={displayImage} src={ImageProjectC2} width='47%' />
                         <img onClick={displayImage} src={ImageProjectC3} width='47%' />
                     </div>
-                    <h2 className='project_title'>
+                    {/* <h2 className='project_title'>
                         Création
-                    </h2>
+                    </h2> */}
                     <div className='the_video'>
                         <iframe width="100%"
                             height="100%"
-                            src="https://www.youtube.com/embed/He-K_qm-Syw?si=yzYqpDQWbIDVSiF4"
+                            src="https://www.youtube.com/embed/qQsJF9Du2kw?si=6JLl4rfEQpkibWEV"
                             title=" Sambe"
                             allow="accelerometer; 
                             autoplay; clipboard-write;
@@ -97,6 +97,7 @@ function SmallHouse1({ }) {
                             allowFullScreen>
 
                         </iframe>
+                    
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC4} width='100%' />

@@ -202,13 +202,20 @@ function Accueil({ GetImageToApp }) {
                     description={"Des designs Modernes, épurés, etc… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#EAEAEA'} textcolor={'#222'} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} theKey={6} side={'left'} link={'/Villa-Saly'} />
 
+<OneBigProject title={'Vila Sambe'} image={ImageProjectS6}
+    description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
+    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={7} link={'/VillaSambe'} The_Experience={false} side={'right'} />
+
                 <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
                     description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
-                    color={'#c6b282'} textcolor={'#222'} theKey={7} side={'right'} link={'/Gym'} The_Experience={false} />
+                    color={'#c6b282'} textcolor={'#222'} theKey={8} side={'left'} link={'/Gym'} The_Experience={false} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
-                    color={'#F1F1F1'} textcolor={'#222'} The_Experience={false} link={'/Hangar1'} theKey={8} side={'left'} />
+                    color={'#F1F1F1'} textcolor={'#222'} The_Experience={false} link={'/Hangar1'} theKey={9} side={'right'} />
+
+                    
+          
             </section>
             <section className='galerie_presantation'>
                 <Link className='nos_réalisations' to={'./Travaux'}>
