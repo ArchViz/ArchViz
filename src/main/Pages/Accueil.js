@@ -539,7 +539,7 @@ function TheFooter({ }) {
                 <ion-icon name="globe-outline"></ion-icon>  Sénégal
             </div>
             <div className='rights'>
-                © 2023 | Archviz. Tout droit réservé.
+                © 2024 | Archviz. Tout droit réservé.
             </div>
         </footer>
     );
