@@ -5,7 +5,6 @@ import ImageProjectC2 from '../../Style/Images/Project/Pharmacie_C-2.jpg';
 import ImageProjectC1 from '../../Style/Images/Project/Pharmacie_C-1.jpg';
 import ImageProjectC3 from '../../Style/Images/Project/Pharmacie_C-3.jpg';
 import ImageProjectC4 from '../../Style/Images/Project/Pharmacie_C-4.jpg';
-import ImageProjectC5 from '../../Style/Images/Project/Pharmacie_C-5.jpg';
 
 
 
@@ -80,9 +79,7 @@ function Pharmacie1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='  Pharmacie Design - 5' loading="lazy" />
                     </div>
-                    {/* <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
-                    </div> */}
+                
                 </div>
             </div>
         </Fragment>
