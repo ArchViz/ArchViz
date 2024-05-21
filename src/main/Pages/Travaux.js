@@ -2,12 +2,11 @@ import { React, useEffect } from 'react';
 import { OneBigProject } from './Accueil';
 
 import ImageProjectA1 from '../Style/Images/Project/Exterior-1.jpg';
-import ImageProjectB1 from '../Style/Images/Project/City-2.jpg';
+import ImageProjectB1 from '../Style/Images/Project/City-1.jpg';
 import ImageProjectC3 from '../Style/Images/Project/Interior-1-3.jpg';
 import ImageProjectD3 from '../Style/Images/Project/NFT-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
-// import ImageProjectG1 from '../Style/Images/Project/MSAD_2.jpg';
 
 
 import ImageProjectH1 from '../Style/Images/Project/Villa_Astan-Ndiaye-1.jpg';
@@ -15,6 +14,7 @@ import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 import ImageProjectK4 from '../Style/Images/Project/Pharmacie_C-4.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
+import ImageProjectS1 from '../Style/Images/Project/Villa_Sambe-1.jpg';
 
 const Travaux = () => {
 
@@ -42,9 +42,7 @@ const Travaux = () => {
 
         return () => {
             ToDisplayonBLoade.style.display = 'flex';
-            console.log(ToDisplayonBLoade);
             AccueilContainer.scrollTop = 0;
-            console.log('clo Travaux');
         };
     }, []);
 
@@ -97,19 +95,23 @@ const Travaux = () => {
                     description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soit leur typologie, leur vocation, leur stratégie et leur positionnement."}
                     color={'#495D68'} textcolor={'#f1f1f1'} theKey={8} link={'/Gym'} side={'right'} The_Experience={false} />
 
-
                 <OneBigProject title={'Villa Saly'} image={ImageProjectI2}
                     description={"Des designs Modernes, épurés, etc…. nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={9} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'left'} />
 
-                <OneBigProject title={'Maquette de la Grande Mosquée de Touba'} image={ImageProjectD3}
-                    description={'Sur la base du matériel de briefing, nous créons des rendus ou croquis pour chaque image commandée.'}
-                    color={'#DB9B18'} textcolor={'#222'} theKey={10} link={'/Touba'} The_Experience={false} side={'right'} />
+
+<OneBigProject title={'Vila Sambe'} image={ImageProjectS1}
+    description={'Sur la base du matériel de briefing, nous créons des rendus ou croquis pour chaque image commandée.'}
+    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={10} link={'/VillaSambe'} The_Experience={false} side={'right'} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={11} link={'/Hangar1'} side={'left'} The_Experience={false} />
 
+                <OneBigProject title={'Maquette de la Grande Mosquée de Touba'} image={ImageProjectD3}
+                    description={'Sur la base du matériel de briefing, nous créons des rendus ou croquis pour chaque image commandée.'}
+                    color={'#DB9B18'} textcolor={'#222'} theKey={12} link={'/Touba'} The_Experience={false} side={'right'} />
+         
             </section>
         </div>
     );
