@@ -36,7 +36,6 @@ import ImageProjectI4 from '../Style/Images/Project/Villa_B-8.jpg';
 
 import ImageProjectK2 from '../Style/Images/Project/Pharmacie_C-2.jpg';
 import ImageProjectK1 from '../Style/Images/Project/Pharmacie_C-1.jpg';
-import ImageProjectK5 from '../Style/Images/Project/Pharmacie_C-5.jpg';
 
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
@@ -47,6 +46,12 @@ import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg'
 import ImageProjectH1 from '../Style/Images/Project/Villa_Astan-Ndiaye-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 
+import ImageProjectS1 from '../Style/Images/Project/Villa_Sambe-1.jpg';
+import ImageProjectS2 from '../Style/Images/Project/Villa_Sambe-2.jpg';
+import ImageProjectS3 from '../Style/Images/Project/Villa_Sambe-3.jpg';
+import ImageProjectS4 from '../Style/Images/Project/Villa_Sambe-4.jpg';
+import ImageProjectS5 from '../Style/Images/Project/Villa_Sambe-5.jpg';
+import ImageProjectS6 from '../Style/Images/Project/Villa_Sambe-6.jpg';
 
 function Accueil({ GetImageToApp }) {
 
@@ -153,12 +158,12 @@ function Accueil({ GetImageToApp }) {
                         </div>
                     </a>
 
-                    <a href="https://api.whatsapp.com/send?phone=221777278655&text=Message provenant de ArchViz.sn" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=221777278655&text=Message provenant de archviz-dakar.com" target="_blank">
                         <div className="network">
                             <ion-icon name="logo-whatsapp"></ion-icon>
                         </div>
                     </a>
-                    <a href="mailto:archviz.sn@gmail.com?subject=Message provenant de ArchViz.sn" target="_blank">
+                    <a href="mailto:archviz.sn@gmail.com?subject=Message provenant de archviz-dakar.com" target="_blank">
                         <div className="network">
                             <ion-icon name="mail-outline"></ion-icon>
                         </div>
@@ -230,9 +235,9 @@ function TheGallery({ GetImageOnAccueil }) {
     return (
         <div className="the_galerie_container">
 
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL6} title={"Villa Al Amin"} date={'26 Janvier, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS2} title={'Villa Sambe'} date={'05 Mai, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB2} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
 
@@ -257,8 +262,8 @@ function TheGallery({ GetImageOnAccueil }) {
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL4} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL2} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK2} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK5} title={'Espace Sportif'} date={'07 Mai, 2023'} />
 
         </div>
     );
@@ -496,7 +501,7 @@ function TheFooter({ }) {
                     </div>
                 </a>
 
-                <a href="mailto:archviz.sn@gmail.com?subject=Message provenant de ArchViz.sn" target="_blank">
+                <a href="mailto:archviz.sn@gmail.com?subject=Message provenant de archviz-dakar.com" target="_blank">
                     <div className="network">
                         <ion-icon name="mail-outline"></ion-icon>
                     </div>
@@ -508,7 +513,7 @@ function TheFooter({ }) {
                     </div>
                 </a>
 
-                <a href="https://api.whatsapp.com/send?phone=221777278655&text=Message provenant de ArchViz.sn" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=221777278655&text=Message provenant de archviz-dakar.com" target="_blank">
                     <div className="network">
                         <ion-icon name="logo-whatsapp"></ion-icon>
                     </div>
