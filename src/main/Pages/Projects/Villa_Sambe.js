@@ -82,9 +82,6 @@ function SmallHouse1({ }) {
                         <img onClick={displayImage} src={ImageProjectC2} width='47%' />
                         <img onClick={displayImage} src={ImageProjectC3} width='47%' />
                     </div>
-                    {/* <h2 className='project_title'>
-                        Création
-                    </h2> */}
                     <div className='the_video'>
                         <iframe width="100%"
                             height="100%"
