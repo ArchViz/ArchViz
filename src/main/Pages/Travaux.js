@@ -101,7 +101,7 @@ const Travaux = () => {
 
 
 <OneBigProject title={'Vila Sambe'} image={ImageProjectS1}
-    description={'Sur la base du matériel de briefing, nous créons des rendus ou croquis pour chaque image commandée.'}
+    description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
     color={'#2b2828'} textcolor={'#f1f1f1'} theKey={10} link={'/VillaSambe'} The_Experience={false} side={'right'} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
