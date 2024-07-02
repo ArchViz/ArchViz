@@ -1,8 +1,4 @@
 import { React, useEffect, useState, Fragment } from 'react';
-
-
-
-
 import ImageProjectO2 from '../../Style/Images/Project/Villa-Onomo-2.jpg';
 import ImageProjectO3 from '../../Style/Images/Project/Villa-Onomo-3.jpg';
 import ImageProjectO4 from '../../Style/Images/Project/Villa-Onomo-4.jpg';
@@ -12,10 +8,6 @@ import ImageProjectO7 from '../../Style/Images/Project/Villa-Onomo-7.jpg';
 import ImageProjectO8 from '../../Style/Images/Project/Villa-Onomo-8.jpg';
 import ImageProjectO9 from '../../Style/Images/Project/Villa-Onomo-9.jpg';
 import ImageProjectO11 from '../../Style/Images/Project/Villa-Onomo-11.jpg';
-
-
-
-
 
 function SmallHouse1({ }) {
     const [TheImageContainer, setTheImageContainer] = useState(false);
@@ -39,9 +31,7 @@ function SmallHouse1({ }) {
             hoverLoaderContainer.style.display = '';
         }, 1500);
 
-
         return () => {
-
             Page_slider.style.opacity = `1`
             ToDisplayonBLoade.style.display = 'flex';
             AccueilContainer.scrollTop = 0;
@@ -71,7 +61,7 @@ function SmallHouse1({ }) {
                 </div>
             }
 
-            <div className='SmallHouse_1_container'>
+            <div className='Villa_Onomo_container'>
 
                 <div className='project_display'>
                     <h1 className='project_title'>
@@ -95,6 +85,21 @@ function SmallHouse1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectO6} width='47%' />
                         <img onClick={displayImage} src={ImageProjectO7} width='47%' />
+                    </div>
+                    <div className='the_video'>
+
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/8U7rAw4vPnk?si=vVz91Eoz6KjQz7EK" 
+                            title="Villa Onomo"
+                            allow="accelerometer; 
+                            autoplay; clipboard-write;
+                            encrypted-media; gyroscope;
+                            picture-in-picture"
+                            allowFullScreen>
+                        </iframe>
+                    
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectO9} width='100%' />

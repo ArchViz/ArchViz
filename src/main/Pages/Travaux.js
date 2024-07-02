@@ -54,10 +54,12 @@ const Travaux = () => {
                 <h1 className='visualization-projects'>
                     Nos Réalisations
                 </h1>
-                <p className='visualization-projects-description'>
+                {/* <p className='visualization-projects-description'>
                     Nous aidons les architectes et les promoteurs immobiliers à impressionner les investisseurs et les acheteurs grâce à des visuels professionnels. <br />
-                    Nos visualisations photoréalistes font profiter aux professionnels de l’immobilier d’une large visibilité dans la mesure où elle permet de visualiser un projet avant sa réalisation.Ainsi, elles suscitent l’intérêt des clients cibles et convainquent les éventuels acheteurs. En d’autres termes, nous contribuons a de donner vie à vos projets ou produits.
-                </p>
+                    Nos visualisations photoréalistes font profiter aux professionnels de l’immobilier d’une large visibilité dans la mesure où elle permet de visualiser un projet avant sa réalisation. Ainsi, elles suscitent l’intérêt des clients cibles et convainquent les éventuels acheteurs. En d’autres termes, nous contribuons a de donner vie à vos projets ou produits.
+                </p> */}
+                <p className='visualization-projects-description'>
+                Nos rendues photoréalistes offrent une visibilité accrue aux projets immobiliers, en permettant une visualisation réaliste avant leur réalisation. Cela suscite l'intérêt des clients cibles et convainc les acheteurs potentiels. En somme, nous donnons vie à vos projets.                </p>
             </section>
             <section className='AccueilBigProjectsSection'>
                 <OneBigProject title={'Villa Teranga'} image={ImageProjectH1}

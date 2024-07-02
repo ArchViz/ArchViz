@@ -3358,7 +3358,7 @@
   }
 }
 
-.SmallHouse_1_container {
+.Villa_Onomo_container {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
@@ -3370,7 +3370,7 @@
   padding-top: 5em;
 }
 
-.SmallHouse_1_container .project_display {
+.Villa_Onomo_container .project_display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3391,21 +3391,33 @@
   padding-bottom: 2em;
 }
 
-.SmallHouse_1_container .project_display .project_title {
+.Villa_Onomo_container .project_display .the_video {
+  width: 60vw;
+  height: 45vw;
+  margin-bottom: 3em;
+  margin-bottom: 3em;
+}
+
+.Villa_Onomo_container .project_display .the_video iframe {
+  border: none;
+  border-radius: 1.5em;
+}
+
+.Villa_Onomo_container .project_display .project_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   font-weight: 800;
   margin-bottom: .2em;
 }
 
-.SmallHouse_1_container .project_display .project_description {
+.Villa_Onomo_container .project_display .project_description {
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
 }
 
-.SmallHouse_1_container .project_display .TheImageContainer {
+.Villa_Onomo_container .project_display .TheImageContainer {
   width: 60vw;
   height: auto;
   margin-bottom: 3em;
@@ -3418,7 +3430,7 @@
           justify-content: space-between;
 }
 
-.SmallHouse_1_container .project_display .TheImageContainer img {
+.Villa_Onomo_container .project_display .TheImageContainer img {
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
   -webkit-transform: scale(1);
@@ -3426,12 +3438,12 @@
   border-radius: 1em;
 }
 
-.SmallHouse_1_container .project_display .TheImageContainer img:hover {
+.Villa_Onomo_container .project_display .TheImageContainer img:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
 
-.SmallHouse_1_container .project_display p {
+.Villa_Onomo_container .project_display p {
   width: 60vw;
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
@@ -3440,21 +3452,21 @@
 }
 
 @media all and (max-width: 1000px) {
-  .SmallHouse_1_container {
+  .Villa_Onomo_container {
     padding-left: 5vw;
     padding-right: 0vw;
   }
-  .SmallHouse_1_container .project_display .project_title {
+  .Villa_Onomo_container .project_display .project_title {
     font-size: 1.5em;
   }
-  .SmallHouse_1_container .project_display .project_description {
+  .Villa_Onomo_container .project_display .project_description {
     font-size: .7em;
   }
-  .SmallHouse_1_container .project_display .TheImageContainer {
+  .Villa_Onomo_container .project_display .TheImageContainer {
     width: 90vw;
     margin-bottom: 1em;
   }
-  .SmallHouse_1_container .project_display p {
+  .Villa_Onomo_container .project_display p {
     width: 80vw;
   }
 }

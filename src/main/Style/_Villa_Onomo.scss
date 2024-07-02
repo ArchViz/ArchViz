@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.SmallHouse_1_container {
+.Villa_Onomo_container {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, auto);
@@ -20,6 +20,19 @@
         grid-template-columns: 1fr;
         padding-bottom: 2em;
 
+    
+        .the_video {
+            width: 60vw;
+            height: 45vw;
+            margin-bottom: 3em;
+
+            iframe {
+                border: none;
+                border-radius: 1.5em;
+            }
+
+            margin-bottom: 3em;
+        }
 
         .project_title {
             font-family: 'Montserrat', sans-serif;
@@ -72,7 +85,7 @@
 @media all and (max-width: 1000px) {
 
 
-    .SmallHouse_1_container {
+    .Villa_Onomo_container {
         padding-left: 5vw;
         padding-right: 0vw;
 
