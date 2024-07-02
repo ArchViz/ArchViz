@@ -2,7 +2,7 @@ import { React, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 
-import ImageProjectA4 from '../Style/Images/Project/Exterior-0.jpg';
+import ImageProjectA4 from '../Style/Images/Project/Villa-Onomo-4.jpg';
 import ImageProjectB3 from '../Style/Images/Project/City-0.jpg';
 import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
@@ -11,6 +11,10 @@ import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 // import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Villa_B-2.jpg';
+import ImageProjectS2 from '../Style/Images/Project/Villa_Sambe-2.jpg';
+import ImageProjectI4 from '../Style/Images/Project/Villa_B-8.jpg';
+import ImageProjectJ4 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
+
 
 function Services({ }) {
     useEffect(() => {
@@ -51,10 +55,14 @@ function Services({ }) {
                 }
                 TheGalerieElements={
                     <div className='project_container'>
-                        <OneGalerieElement image={ImageProjectA4} title={'Design de Maison Moderne'} link={'/SmallHouse1'} date={'15 avril, 2022'} />
-                        <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/City1"} date={'27 Mai, 2022'} />
+                        <OneGalerieElement image={ImageProjectA4} title={'Villa Onomo'} link={'/Villa_Onomo'} date={'25 juin, 2024'} />
+                        <OneGalerieElement link={'/VillaSambe'} image={ImageProjectS2} title={'Villa Sambe'} date={'05 Mai, 2024'} />
+                        <OneGalerieElement  link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
+
+                        <OneGalerieElement image={ImageProjectJ4} title={'design intérieur'} link={'/Appartement-F4-A'} date={'25 Septembre, 2023'} />
                         <OneGalerieElement image={ImageProjectE7} title={'Design pour les Commerces'} link={'/Pharmacie1'} date={'27 Mai, 2022'} />
-                        <OneGalerieElement image={ImageProjectC7} title={'Interior Design'} link={'/Interior1'} date={'03 Juin, 2022'} />
+                        <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/City1"} date={'27 Mai, 2022'} />
+
                     </div>
                 } color={'#F1F1F1'}
             />
@@ -67,8 +75,7 @@ function Services({ }) {
                 TheGalerieElements={
                     <div className='project_container'>
                         <OneGalerieElement image={ImageProjectJ1} title={'Villa Saly'} link={'/Villa-Saly'} date={'06 Juin, 2023'} />
-                        <OneGalerieElement image={ImageProjectJ1} title={'Villa Saly'} link={'/Villa-Saly'} date={'06 Juin, 2023'} />
-                        {/* <OneGalerieElement image={ImageProjectG2} title={'Manufacture des Arts Décoratifs de Thiés'} link={'/MSAD'} date={'03 Septembre, 2022'} /> */}
+                        <OneGalerieElement image={ImageProjectJ4} title={'Appartement Bamba Ba'} link={'/Appartement-F4-A'} date={'25 Septembre, 2023'} />
                         <OneGalerieElement image={ImageProjectL1} title={'Villa Al Amin'} link={'/VillaTerangaAlAmin'} date={'26 Janvier, 2023'} />
                     </div>
                 } color={'#F4EFE4'}

@@ -16,6 +16,8 @@ import ImageProjectK4 from '../Style/Images/Project/Pharmacie_C-4.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectS1 from '../Style/Images/Project/Villa_Sambe-1.jpg';
 
+import ImageProjectO1 from '../Style/Images/Project/Villa-Onomo-2.jpg';
+
 const Travaux = () => {
 
     useEffect(() => {
@@ -60,10 +62,10 @@ const Travaux = () => {
             </section>
             <section className='AccueilBigProjectsSection'>
                 <OneBigProject title={'Villa Teranga'} image={ImageProjectH1}
-                    description={"Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#4c525c'} textcolor={'#f1f1f1'} theKey={1} link={'/Villa'} side={'left'} The_Experience={true} The_Experience_Link={'https://archviz-villa-astan.netlify.app/'} />
 
-                <OneBigProject title={'Décoration Intérieur'} image={ImageProjectJ1}
+                <OneBigProject title={'Appartement Bamba Ba'} image={ImageProjectJ1}
                     description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
                     color={'#8a6f54'} textcolor={'#f1f1f1'} theKey={2} link={'/Appartement-F4-A'} side={'right'} The_Experience={true} The_Experience_Link={'https://archviz-villa-bamba-ba.netlify.app/'} />
 
@@ -76,16 +78,16 @@ const Travaux = () => {
                     description={'Nous avons une grande expérience dans l’agencement de point de vente, et l’aménagement de bureaux. Quelle que soit la typologie du point de vente, sa vocation, sa stratégie et son positionnement.'}
                     color={'#F4EFE4'} textcolor={'#664f3c'} theKey={4} link={'/Pharmacie1'} side={'right'} The_Experience={false} />
 
-                <OneBigProject title={'Design de Maison Moderne'} image={ImageProjectA1}
-                    description={"Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
-                    color={'#93A490'} textcolor={'#222'} theKey={5} link={'/SmallHouse1'} side={'left'} The_Experience={false} />
+                <OneBigProject title={'Villa Onomo'} image={ImageProjectO1}
+                    description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    color={'#a39081'} textcolor={'#222'} theKey={5} link={'/Villa_Onomo'} side={'left'} The_Experience={false} />
 
                 <OneBigProject title={'Décoration Interieur'} image={ImageProjectC3}
                     description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces.'}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/Interior1'} side={'right'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
 
-                <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL1}
+                <OneBigProject title={'Villa Al Amin'} image={ImageProjectL1}
                     description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide..."}
                     color={'#664f3c'} textcolor={'#F4EFE4'} theKey={7} link={'/VillaTerangaAlAmin'} side={'left'}
                     The_Experience={true} The_Experience_Link={'https://archviz-villa-teranga-al-amine.netlify.app/'}
@@ -100,7 +102,7 @@ const Travaux = () => {
                     color={'#F1F1F1'} textcolor={'#222'} theKey={9} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'left'} />
 
 
-<OneBigProject title={'Vila Sambe'} image={ImageProjectS1}
+<OneBigProject title={'Villa Sambe'} image={ImageProjectS1}
     description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
     color={'#2b2828'} textcolor={'#f1f1f1'} theKey={10} link={'/VillaSambe'} The_Experience={false} side={'right'} />
 

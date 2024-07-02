@@ -61,7 +61,7 @@ function Pharmacie1({ }) {
             <div className='Appartement-F4-A-container'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Décoration Intérieur
+                    Appartement Bamba Ba
                     </h1>
                     <h3 className='project_description'>
                         par Bokar Ndiaye | 25 Septembre, 2023 |

@@ -71,7 +71,7 @@ function SmallHouse1({ }) {
                         par Bokar Ndiaye | 17 Juillet, 2023 |
                     </h3>
                     <p>
-                        Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives.
+                        Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives.
                     </p>
                     <a className='the_links' href='https://archviz-villa-astan.netlify.app/' target="_blank">
                         Experience VR/AR <ion-icon name="arrow-forward-outline"></ion-icon>

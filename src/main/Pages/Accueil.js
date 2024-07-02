@@ -52,6 +52,18 @@ import ImageProjectS3 from '../Style/Images/Project/Villa_Sambe-3.jpg';
 import ImageProjectS4 from '../Style/Images/Project/Villa_Sambe-4.jpg';
 import ImageProjectS5 from '../Style/Images/Project/Villa_Sambe-5.jpg';
 import ImageProjectS6 from '../Style/Images/Project/Villa_Sambe-6.jpg';
+import ImageProjectS7 from '../Style/Images/Project/Villa_Sambe-7.jpg';
+import ImageProjectS10 from '../Style/Images/Project/Villa_Sambe-8.jpg';
+
+import ImageProjectT2 from '../Style/Images/Project/Villa-Onomo-2.jpg';
+import ImageProjectT3 from '../Style/Images/Project/Villa-Onomo-3.jpg';
+import ImageProjectT4 from '../Style/Images/Project/Villa-Onomo-4.jpg';
+import ImageProjectT5 from '../Style/Images/Project/Villa-Onomo-5.jpg';
+import ImageProjectT6 from '../Style/Images/Project/Villa-Onomo-6.jpg';
+import ImageProjectT7 from '../Style/Images/Project/Villa-Onomo-7.jpg';
+import ImageProjectT8 from '../Style/Images/Project/Villa-Onomo-8.jpg';
+import ImageProjectT9 from '../Style/Images/Project/Villa-Onomo-9.jpg';
+import ImageProjectT11 from '../Style/Images/Project/Villa-Onomo-11.jpg';
 
 function Accueil({ GetImageToApp }) {
 
@@ -119,7 +131,7 @@ function Accueil({ GetImageToApp }) {
                         </div>
                     </div>
                     <div loading="lazy" className='sliders'>
-                        <img src={ImageforIntro3} />
+                        <img src={ImageProjectJ1} />
                         <div className='sliders_inner_container'>
                             <div className='slider_title'>
                                 <p>Réalité Virtuel & Experience 3D Web</p>
@@ -177,21 +189,27 @@ function Accueil({ GetImageToApp }) {
             </section>
             <section className='AccueilBigProjectsSection'>
 
-                <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL2}
-                    description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide."}
-                    color={'#EAEAEA'} textcolor={'#222'} theKey={1} side={'right'} link={'/VillaTerangaAlAmin'} The_Experience={true} The_Experience_Link={'https://archviz-villa-teranga-al-amine.netlify.app/'} />
+<OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectT2}
+                    description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    color={'#a39081'} textcolor={'#222'} theKey={1} link={'/Villa_Onomo'} side={'right'} The_Experience={false} />
 
-                <OneBigProject title={'Décoration Intérieur'} image={ImageProjectJ1}
-                    description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
-                    color={'#8a6f54'} textcolor={'#f1f1f1'} theKey={2} link={'/Appartement-F4-A'} side={'left'} The_Experience={true} The_Experience_Link={'https://archviz-villa-bamba-ba.netlify.app/'} />
+<OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectH1}
+                    description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={2} link={'/Villa'} side={'left'} The_Experience={true} The_Experience_Link={'https://archviz-villa-astan.netlify.app/'} />
+
+
+
 
                 <OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
                     description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
-                    color={'#EAEAEA'} textcolor={'#222'} theKey={3} link={'/City1'} side={'right'} The_Experience={false} />
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={3} link={'/City1'} side={'right'} The_Experience={false} />
 
-                <OneBigProject title={'Villa Teranga'} image={ImageProjectH1}
-                    description={"Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
-                    color={'#4c525c'} textcolor={'#f1f1f1'} theKey={4} link={'/Villa'} side={'left'} The_Experience={true} The_Experience_Link={'https://archviz-villa-astan.netlify.app/'} />
+
+
+<OneBigProject title={'Décoration Intérieur'} image={ImageProjectJ1}
+                    description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
+                    color={'#8a6f54'} textcolor={'#f1f1f1'} theKey={4} link={'/Appartement-F4-A'} side={'left'} The_Experience={true} The_Experience_Link={'https://archviz-villa-bamba-ba.netlify.app/'} />
+
 
 
                 <OneBigProject title={'Design pour les Commerces'} image={ImageProjectE3}
@@ -202,19 +220,22 @@ function Accueil({ GetImageToApp }) {
                     description={"Des designs Modernes, épurés, etc… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#EAEAEA'} textcolor={'#222'} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} theKey={6} side={'left'} link={'/Villa-Saly'} />
 
-<OneBigProject title={'Vila Sambe'} image={ImageProjectS6}
+<OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectS1}
     description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
     color={'#2b2828'} textcolor={'#f1f1f1'} theKey={7} link={'/VillaSambe'} The_Experience={false} side={'right'} />
 
                 <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
                     description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
-                    color={'#c6b282'} textcolor={'#222'} theKey={8} side={'left'} link={'/Gym'} The_Experience={false} />
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={8} side={'left'} link={'/Gym'} The_Experience={false} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
-                    color={'#F1F1F1'} textcolor={'#222'} The_Experience={false} link={'/Hangar1'} theKey={9} side={'right'} />
+                    color={'#2b2828'} textcolor={'#f1F1F1'} The_Experience={false} link={'/Hangar1'} theKey={9} side={'right'} />
+             
+                <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL2}
+                    description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide."}
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={10} side={'left'} link={'/VillaTerangaAlAmin'} The_Experience={true} The_Experience_Link={'https://archviz-villa-teranga-al-amine.netlify.app/'} />
 
-                    
           
             </section>
             <section className='galerie_presantation'>
@@ -234,43 +255,63 @@ function Accueil({ GetImageToApp }) {
 
 //!###############################################################
 function TheGallery({ GetImageOnAccueil }) {
-
+    
     const onClickOnImage = (theimage, title, date, link) => {
         GetImageOnAccueil(theimage, title, date, link);
     }
-
+    
     return (
         <div className="the_galerie_container">
 
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL6} title={"Villa Al Amin"} date={'26 Janvier, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
+
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT2}title={'Villa Onomo'} date={'25 juin, 2024'} />
+         
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS2} title={'Villa Sambe'} date={'05 Mai, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB2} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
 
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Touba'} image={ImageProjectD1} title={'Maquette de la Grande Mosquée de Touba'} date={'09 Mars, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK1} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC4} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
 
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa'} image={ImageProjectH3} title={'Villa Teranga'} date={'17 Juillet, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC2} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL3} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-
+            
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS7}   title={'Villa Sambe'} date={'05 Mai, 2024'} />
+           
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Appartement-F4-A'} image={ImageProjectJ1} title={'Appartement-F4-A'} date={'25 Septembre, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE2} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT8} title={'Villa Onomo'} date={'25 juin, 2024'} />
+
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS4}  title={'Villa Sambe'} date={'05 Mai, 2024'} />
+
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB9} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/SmallHouse1'} image={ImageProjectA1} title={'Design de Maison Moderne'} date={'15 avril, 2022'} />
+            
+
+
+
+            
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT9} title={'Villa Onomo'} date={'25 juin, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK1} title={'Espace Sportif'} date={'07 Mai, 2023'} />
+          
+           <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT7}title={'Villa Onomo'} date={'25 juin, 2024'} />
+          
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT5} title={'Villa Onomo'} date={'25 juin, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL2} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
+
+
+
+            
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS10}  title={'Villa Sambe'} date={'05 Mai, 2024'}/>
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT4} title={'Villa Onomo'} date={'25 juin, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL3} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Hangar1'} image={ImageProjectF3} title={'Maquette Hangar Photovoltaïque'} date={'29 Juin, 2021'} />
 
+
+
+            
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL4} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL2} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK2} title={'Espace Sportif'} date={'07 Mai, 2023'} />
+           
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
 
         </div>
     );
