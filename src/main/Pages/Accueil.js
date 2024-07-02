@@ -17,7 +17,7 @@ import ImageProjectB9 from '../Style/Images/Project/City-9.jpg';
 
 
 import ImageProjectE3 from '../Style/Images/Project/Pharmacie-3.jpg';
-import ImageProjectE4 from '../Style/Images/Project/Pharmacie-4.jpg';
+import ImageProjectE4 from '../Style/Images/Project/Pharmacie-2.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
