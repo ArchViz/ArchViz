@@ -1,7 +1,6 @@
 import { React, useEffect } from 'react';
 import { OneBigProject } from './Accueil';
 
-import ImageProjectA1 from '../Style/Images/Project/Exterior-1.jpg';
 import ImageProjectB1 from '../Style/Images/Project/City-1.jpg';
 import ImageProjectC3 from '../Style/Images/Project/Interior-1-3.jpg';
 import ImageProjectD3 from '../Style/Images/Project/NFT-3.jpg';
