@@ -11,7 +11,7 @@ import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 // import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Villa_B-2.jpg';
-import ImageProjectS2 from '../Style/Images/Project/Villa_Sambe-2.jpg';
+import ImageProjectS2 from '../Style/Images/Project/Villa_Samb-2.jpg';
 import ImageProjectI4 from '../Style/Images/Project/Villa_B-8.jpg';
 import ImageProjectJ4 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 
@@ -56,7 +56,7 @@ function Services({ }) {
                 TheGalerieElements={
                     <div className='project_container'>
                         <OneGalerieElement image={ImageProjectA4} title={'Villa Onomo'} link={'/Villa_Onomo'} date={'25 juin, 2024'} />
-                        <OneGalerieElement link={'/VillaSambe'} image={ImageProjectS2} title={'Villa Sambe'} date={'05 Mai, 2024'} />
+                        <OneGalerieElement link={'/VillaSamb'} image={ImageProjectS2} title={'Villa Samb'} date={'05 Mai, 2024'} />
                         <OneGalerieElement  link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
 
                         <OneGalerieElement image={ImageProjectJ4} title={'design intérieur'} link={'/Appartement-F4-A'} date={'25 Septembre, 2023'} />

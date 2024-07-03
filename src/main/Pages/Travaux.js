@@ -13,7 +13,7 @@ import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 import ImageProjectK4 from '../Style/Images/Project/Pharmacie_C-4.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
-import ImageProjectS1 from '../Style/Images/Project/Villa_Sambe-1.jpg';
+import ImageProjectS1 from '../Style/Images/Project/Villa_Samb-1.jpg';
 
 import ImageProjectO1 from '../Style/Images/Project/Villa-Onomo-2.jpg';
 
@@ -103,9 +103,9 @@ const Travaux = () => {
                     color={'#F1F1F1'} textcolor={'#222'} theKey={9} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} link={'/Villa-Saly'} side={'left'} />
 
 
-<OneBigProject title={'Villa Sambe'} image={ImageProjectS1}
+<OneBigProject title={'Villa Samb'} image={ImageProjectS1}
     description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
-    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={10} link={'/VillaSambe'} The_Experience={false} side={'right'} />
+    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={10} link={'/VillaSamb'} The_Experience={false} side={'right'} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}

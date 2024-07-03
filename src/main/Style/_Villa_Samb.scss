@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.Villa_Sambe {
+.Villa_Samb {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, auto);
@@ -107,7 +107,7 @@
 @media all and (max-width: 1000px) {
 
 
-    .Villa_Sambe {
+    .Villa_Samb {
         padding-left: 5vw;
         padding-right: 0vw;
 

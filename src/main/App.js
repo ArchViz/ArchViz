@@ -41,7 +41,7 @@ const City1 = React.lazy(() => import('./Pages/Projects/Cité'));
 const Villa = React.lazy(() => import('./Pages/Projects/Villa_A'));
 const Villa_Saly = React.lazy(() => import('./Pages/Projects/Villa_B'));
 const VillaTerangaAlAmin = React.lazy(() => import('./Pages/Projects/Villa_Teranga_Al_Amin'));
-const VillaSambe = React.lazy(() => import('./Pages/Projects/Villa_Sambe'));
+const VillaSamb = React.lazy(() => import('./Pages/Projects/Villa_Samb'));
 
 //!###############################################################
 function App() {
@@ -104,7 +104,7 @@ function App() {
             <Route exact path="/Villa" element={<Suspense fallback={<TheLoader />}><Villa /></Suspense>} />
             <Route exact path="/Villa-Saly" element={<Suspense fallback={<TheLoader />}><Villa_Saly /></Suspense>} />
             <Route exact path="/VillaTerangaAlAmin" element={<Suspense fallback={<TheLoader />}><VillaTerangaAlAmin /></Suspense>} />
-            <Route exact path="/VillaSambe" element={<Suspense fallback={<TheLoader />}><VillaSambe /></Suspense>} />
+            <Route exact path="/VillaSamb" element={<Suspense fallback={<TheLoader />}><VillaSamb /></Suspense>} />
 
           </Routes>
           <TheFooter />

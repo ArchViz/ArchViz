@@ -1,15 +1,15 @@
 import { React, useEffect, useState, Fragment } from 'react';
 
-import ImageProjectC1 from '../../Style/Images/Project/Villa_Sambe-1.jpg';
-import ImageProjectC2 from '../../Style/Images/Project/Villa_Sambe-2.jpg';
-import ImageProjectC3 from '../../Style/Images/Project/Villa_Sambe-3.jpg';
-import ImageProjectC4 from '../../Style/Images/Project/Villa_Sambe-4.jpg';
-import ImageProjectC5 from '../../Style/Images/Project/Villa_Sambe-5.jpg';
-import ImageProjectC6 from '../../Style/Images/Project/Villa_Sambe-6.jpg';
-import ImageProjectC7 from '../../Style/Images/Project/Villa_Sambe-7.jpg';
-import ImageProjectC8 from '../../Style/Images/Project/Villa_Sambe-8.jpg';
-import ImageProjectC9 from '../../Style/Images/Project/Villa_Sambe-9.jpg';
-import ImageProjectC10 from '../../Style/Images/Project/Villa_Sambe-10.jpg';
+import ImageProjectC1 from '../../Style/Images/Project/Villa_Samb-1.jpg';
+import ImageProjectC2 from '../../Style/Images/Project/Villa_Samb-2.jpg';
+import ImageProjectC3 from '../../Style/Images/Project/Villa_Samb-3.jpg';
+import ImageProjectC4 from '../../Style/Images/Project/Villa_Samb-4.jpg';
+import ImageProjectC5 from '../../Style/Images/Project/Villa_Samb-5.jpg';
+import ImageProjectC6 from '../../Style/Images/Project/Villa_Samb-6.jpg';
+import ImageProjectC7 from '../../Style/Images/Project/Villa_Samb-7.jpg';
+import ImageProjectC8 from '../../Style/Images/Project/Villa_Samb-8.jpg';
+import ImageProjectC9 from '../../Style/Images/Project/Villa_Samb-9.jpg';
+import ImageProjectC10 from '../../Style/Images/Project/Villa_Samb-10.jpg';
 //#############
 
 function SmallHouse1({ }) {
@@ -64,10 +64,10 @@ function SmallHouse1({ }) {
                     </div>
                 </div>
             }
-            <div className='Villa_Sambe'>
+            <div className='Villa_Samb'>
                 <div className='project_display'>
                     <h1 className='project_title'>
-                        Villa Sambe
+                        Villa Samb
                     </h1>
                     <h3 className='project_description'>
                         par Pape Momar Ndiaye | 05 Mai, 2024 |
@@ -86,7 +86,7 @@ function SmallHouse1({ }) {
                         <iframe width="100%"
                             height="100%"
                             src="https://www.youtube.com/embed/qQsJF9Du2kw?si=6JLl4rfEQpkibWEV"
-                            title=" Sambe"
+                            title=" Samb"
                             allow="accelerometer; 
                             autoplay; clipboard-write;
                             encrypted-media; gyroscope;

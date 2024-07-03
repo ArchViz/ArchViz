@@ -5,23 +5,18 @@ import { Carousel } from 'react-responsive-carousel';
 
 import ImageforIntro1 from '../Style/Images/Project/Exterior-0.jpg';
 import ImageforIntro2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
-// import ImageforIntro3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
 import ImageforIntro4 from '../Style/Images/Project/Pharmacie-3.jpg';
-
-
 
 import ImageProjectB1 from '../Style/Images/Project/City-8.jpg';
 import ImageProjectB2 from '../Style/Images/Project/City-1.jpg';
 import ImageProjectB3 from '../Style/Images/Project/City-3.jpg';
 import ImageProjectB9 from '../Style/Images/Project/City-9.jpg';
 
-
 import ImageProjectE3 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-2.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
-
 
 import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectI3 from '../Style/Images/Project/Villa_B-3.jpg';
@@ -37,12 +32,12 @@ import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg'
 import ImageProjectH1 from '../Style/Images/Project/Villa_Astan-Ndiaye-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 
-import ImageProjectS1 from '../Style/Images/Project/Villa_Sambe-1.jpg';
-import ImageProjectS2 from '../Style/Images/Project/Villa_Sambe-2.jpg';
-import ImageProjectS4 from '../Style/Images/Project/Villa_Sambe-4.jpg';
+import ImageProjectS1 from '../Style/Images/Project/Villa_Samb-1.jpg';
+import ImageProjectS2 from '../Style/Images/Project/Villa_Samb-2.jpg';
+import ImageProjectS4 from '../Style/Images/Project/Villa_Samb-4.jpg';
  
-import ImageProjectS7 from '../Style/Images/Project/Villa_Sambe-7.jpg';
-import ImageProjectS10 from '../Style/Images/Project/Villa_Sambe-8.jpg';
+import ImageProjectS7 from '../Style/Images/Project/Villa_Samb-7.jpg';
+import ImageProjectS10 from '../Style/Images/Project/Villa_Samb-8.jpg';
 
 import ImageProjectT2 from '../Style/Images/Project/Villa-Onomo-2.jpg';
 import ImageProjectT4 from '../Style/Images/Project/Villa-Onomo-4.jpg';
@@ -207,7 +202,7 @@ function Accueil({ GetImageToApp }) {
 
 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectS1}
     description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
-    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={7} link={'/VillaSambe'} The_Experience={false} side={'right'} />
+    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={7} link={'/VillaSamb'} The_Experience={false} side={'right'} />
 
                 <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
                     description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
@@ -251,16 +246,16 @@ function TheGallery({ GetImageOnAccueil }) {
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT2}title={'Villa Onomo'} date={'25 juin, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS2} title={'Villa Sambe'} date={'05 Mai, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSamb'} image={ImageProjectS2} title={'Villa Samb'} date={'05 Mai, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB2} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
 
 
             
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS7}   title={'Villa Sambe'} date={'05 Mai, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSamb'} image={ImageProjectS7}   title={'Villa Samb'} date={'05 Mai, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Appartement-F4-A'} image={ImageProjectJ1} title={'Appartement-F4-A'} date={'25 Septembre, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT8} title={'Villa Onomo'} date={'25 juin, 2024'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS4}  title={'Villa Sambe'} date={'05 Mai, 2024'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSamb'} image={ImageProjectS4}  title={'Villa Samb'} date={'05 Mai, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB9} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             
 
@@ -276,7 +271,7 @@ function TheGallery({ GetImageOnAccueil }) {
 
 
             
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSambe'} image={ImageProjectS10}  title={'Villa Sambe'} date={'05 Mai, 2024'}/>
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaSamb'} image={ImageProjectS10}  title={'Villa Samb'} date={'05 Mai, 2024'}/>
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa_Onomo'} image={ImageProjectT4} title={'Villa Onomo'} date={'25 juin, 2024'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL3} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
