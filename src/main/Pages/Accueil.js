@@ -45,6 +45,7 @@ import ImageProjectT5 from '../Style/Images/Project/Villa-Onomo-5.jpg';
 import ImageProjectT7 from '../Style/Images/Project/Villa-Onomo-7.jpg';
 import ImageProjectT8 from '../Style/Images/Project/Villa-Onomo-8.jpg';
 import ImageProjectT9 from '../Style/Images/Project/Villa-Onomo-9.jpg';
+// import ImageProjectT9 from '../Style/Images/Project/Villa-Onomo-9.jpg';
 
 function Accueil({ GetImageToApp }) {
 
