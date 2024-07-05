@@ -10,6 +10,7 @@ import ImageProjectC7 from '../../Style/Images/Project/Villa_Samb-7.jpg';
 import ImageProjectC8 from '../../Style/Images/Project/Villa_Samb-8.jpg';
 import ImageProjectC9 from '../../Style/Images/Project/Villa_Samb-9.jpg';
 import ImageProjectC10 from '../../Style/Images/Project/Villa_Samb-10.jpg';
+// import ImageProjectC10 from '../../Style/Images/Project/Villa_Samb-10.jpg';
 //#############
 
 function SmallHouse1({ }) {
@@ -92,7 +93,6 @@ function SmallHouse1({ }) {
                             encrypted-media; gyroscope;
                             picture-in-picture"
                             allowFullScreen>
-
                         </iframe>
                     
                     </div>
