@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import ImageProjectA4 from '../Style/Images/Project/Villa-Onomo-4.jpg';
 import ImageProjectB3 from '../Style/Images/Project/City-0.jpg';
-import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
+// import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
 import ImageProjectE7 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
@@ -14,6 +14,7 @@ import ImageProjectJ1 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectS2 from '../Style/Images/Project/Villa_Samb-2.jpg';
 import ImageProjectI4 from '../Style/Images/Project/Villa_B-8.jpg';
 import ImageProjectJ4 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
+import ImageProjectk4 from '../Style/Images/Project/Immeuble-Talles-8.jpg';
 
 
 function Services({ }) {
@@ -89,7 +90,8 @@ function Services({ }) {
                 TheGalerieElements={
                     <div className='project_container'>
                         <OneGalerieElement image={ImageProjectD1} title={'Maquette de la Grande Mosquée de Touba'} link={'/Touba'} date={'09 Mars, 2022'} />
-                        <OneGalerieElement image={ImageProjectF2} title={'Maquette "Hangar Photovoltaïque"'} link={'/Hangar1'} date={'29 Juin , 2021'} />
+                        <OneGalerieElement image={ImageProjectF2} title={'Maquette "Hangar Photovoltaïque'} link={'/Hangar1'} date={'29 Juin , 2021'} />
+                        <OneGalerieElement image={ImageProjectk4} title={'Plans D\'étage Isométriques'} link={'/Immeuble-Talles'} date={'3 Juin , 2024'} />
                     </div>
                 } color={'#EBEBEB'}
             />

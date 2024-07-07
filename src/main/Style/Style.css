@@ -3187,7 +3187,7 @@
   }
 }
 
-.Interior_1_container {
+.Immeuble-Talles {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
@@ -3199,7 +3199,7 @@
   padding-top: 5em;
 }
 
-.Interior_1_container .project_display {
+.Immeuble-Talles .project_display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3220,7 +3220,7 @@
   padding-bottom: 2em;
 }
 
-.Interior_1_container .project_display a {
+.Immeuble-Talles .project_display a {
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
   font-size: .8em;
@@ -3242,39 +3242,39 @@
   color: var(--colorX);
 }
 
-.Interior_1_container .project_display a:hover {
+.Immeuble-Talles .project_display a:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
 
-.Interior_1_container .project_display a ion-icon {
+.Immeuble-Talles .project_display a ion-icon {
   font-size: 1.2em;
 }
 
-.Interior_1_container .project_display .the_video {
+.Immeuble-Talles .project_display .the_video {
   width: 60vw;
   height: 45vw;
   margin-bottom: 3em;
   margin-bottom: 3em;
 }
 
-.Interior_1_container .project_display .the_video iframe {
+.Immeuble-Talles .project_display .the_video iframe {
   border: none;
   border-radius: 1.5em;
 }
 
-.Interior_1_container .project_display .the_video_2 {
+.Immeuble-Talles .project_display .the_video_2 {
   height: 34vw;
 }
 
-.Interior_1_container .project_display .project_title {
+.Immeuble-Talles .project_display .project_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   font-weight: 800;
   margin-bottom: .2em;
 }
 
-.Interior_1_container .project_display .project_description {
+.Immeuble-Talles .project_display .project_description {
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
@@ -3282,7 +3282,7 @@
   cursor: pointer;
 }
 
-.Interior_1_container .project_display .TheImageContainer {
+.Immeuble-Talles .project_display .TheImageContainer {
   width: 60vw;
   height: auto;
   margin-bottom: 3em;
@@ -3295,7 +3295,7 @@
           justify-content: space-between;
 }
 
-.Interior_1_container .project_display .TheImageContainer img {
+.Immeuble-Talles .project_display .TheImageContainer img {
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
   -webkit-transform: scale(1);
@@ -3303,12 +3303,12 @@
   border-radius: 1em;
 }
 
-.Interior_1_container .project_display .TheImageContainer img:hover {
+.Immeuble-Talles .project_display .TheImageContainer img:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
 
-.Interior_1_container .project_display .TheImageContainer img {
+.Immeuble-Talles .project_display .TheImageContainer img {
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
   -webkit-transform: scale(1);
@@ -3316,12 +3316,12 @@
   border-radius: 1em;
 }
 
-.Interior_1_container .project_display .TheImageContainer img:hover {
+.Immeuble-Talles .project_display .TheImageContainer img:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
 
-.Interior_1_container .project_display p {
+.Immeuble-Talles .project_display p {
   width: 60vw;
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
@@ -3330,30 +3330,30 @@
 }
 
 @media all and (max-width: 1000px) {
-  .Interior_1_container {
+  .Immeuble-Talles {
     padding-left: 5vw;
     padding-right: 0vw;
   }
-  .Interior_1_container .project_display .project_title {
+  .Immeuble-Talles .project_display .project_title {
     font-size: 1.5em;
   }
-  .Interior_1_container .project_display .project_description {
+  .Immeuble-Talles .project_display .project_description {
     font-size: .7em;
   }
-  .Interior_1_container .project_display .the_video {
+  .Immeuble-Talles .project_display .the_video {
     width: 90vw;
     height: 65vw;
     margin-bottom: 3em;
     display: none;
   }
-  .Interior_1_container .project_display h2 {
+  .Immeuble-Talles .project_display h2 {
     display: none;
   }
-  .Interior_1_container .project_display .TheImageContainer {
+  .Immeuble-Talles .project_display .TheImageContainer {
     width: 90vw;
     margin-bottom: 1em;
   }
-  .Interior_1_container .project_display p {
+  .Immeuble-Talles .project_display p {
     width: 80vw;
   }
 }

@@ -2,7 +2,7 @@ import { React, useEffect } from 'react';
 import { OneBigProject } from './Accueil';
 
 import ImageProjectB1 from '../Style/Images/Project/City-1.jpg';
-import ImageProjectC3 from '../Style/Images/Project/Interior-1-3.jpg';
+import ImageProjectC3 from '../Style/Images/Project/Immeuble-Talles-7.jpg';
 import ImageProjectD3 from '../Style/Images/Project/NFT-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
@@ -83,9 +83,9 @@ const Travaux = () => {
                     description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#a39081'} textcolor={'#222'} theKey={5} link={'/Villa_Onomo'} side={'left'} The_Experience={false} />
 
-                <OneBigProject title={'Décoration Interieur'} image={ImageProjectC3}
-                    description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces.'}
-                    color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/Interior1'} side={'right'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
+                <OneBigProject title={'Immeuble Talles'} image={ImageProjectC3}
+                    description={`Les plans d'étage isométriques offrent une vue en trois dimensions des configurations d'un bien immobilier, aidant les clients à mieux comprendre la disposition spatiale et la fonctionnalité des différentes zones.`}
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/Immeuble-Talles'} side={'right'} The_Experience={false} />
 
 
                 <OneBigProject title={'Villa Al Amin'} image={ImageProjectL1}

@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.Interior_1_container {
+.Immeuble-Talles {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, auto);
@@ -122,7 +122,7 @@
 //!########################################
 
 @media all and (max-width: 1000px) {
-    .Interior_1_container {
+    .Immeuble-Talles {
         padding-left: 5vw;
         padding-right: 0vw;
 

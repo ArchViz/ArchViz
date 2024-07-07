@@ -30,7 +30,7 @@ function TheLoader() {
 }
 //!###############################################################
 
-const Interior1 = React.lazy(() => import('./Pages/Projects/Interior_Design'));
+const ImmeubleTalles = React.lazy(() => import('./Pages/Projects/Immeuble_Talles'));
 const SmallHouse1 = React.lazy(() => import('./Pages/Projects/Villa_Onomo'));
 const Hangar1 = React.lazy(() => import('./Pages/Projects/Hangar_1'));
 const Touba = React.lazy(() => import('./Pages/Projects/Touba'));
@@ -93,7 +93,7 @@ function App() {
 
             {/* !############################################## */}
 
-            <Route exact path="/Interior1" element={<Suspense fallback={<TheLoader />}><Interior1 /></Suspense>} />
+            <Route exact path="/Immeuble-Talles" element={<Suspense fallback={<TheLoader />}><ImmeubleTalles /></Suspense>} />
             <Route exact path="/Villa_Onomo" element={<Suspense fallback={<TheLoader />}><SmallHouse1 /></Suspense>} />
             <Route exact path="/Hangar1" element={<Suspense fallback={<TheLoader />}><Hangar1 /></Suspense>} />
             <Route exact path="/Touba" element={<Suspense fallback={<TheLoader />}><Touba /></Suspense>} />

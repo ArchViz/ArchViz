@@ -14,6 +14,7 @@ import ImageProjectB9 from '../Style/Images/Project/City-9.jpg';
 
 import ImageProjectE3 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-2.jpg';
+import ImageProjectE5 from '../Style/Images/Project/Immeuble-Talles-1.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
@@ -45,7 +46,9 @@ import ImageProjectT5 from '../Style/Images/Project/Villa-Onomo-5.jpg';
 import ImageProjectT7 from '../Style/Images/Project/Villa-Onomo-7.jpg';
 import ImageProjectT8 from '../Style/Images/Project/Villa-Onomo-8.jpg';
 import ImageProjectT9 from '../Style/Images/Project/Villa-Onomo-9.jpg';
-// import ImageProjectT9 from '../Style/Images/Project/Villa-Onomo-9.jpg';
+
+import ImageProjectP1 from '../Style/Images/Project/Immeuble-Talles-6.jpg';
+
 
 function Accueil({ GetImageToApp }) {
 
@@ -102,10 +105,10 @@ function Accueil({ GetImageToApp }) {
                         </div>
                     </div>
                     <div className='sliders'>
-                        <img loading="lazy" src={ImageforIntro2} />
+                        <img loading="lazy" src={ImageProjectP1} />
                         <div className='sliders_inner_container'>
                             <div className='slider_title'>
-                                <p>Création De Maquettes </p>
+                                <p>Création De Plants et Maquettes</p>
                             </div>
                             <div className='slider_date'>
                                 Séngal, Dakar
@@ -190,24 +193,24 @@ function Accueil({ GetImageToApp }) {
 
 
 
-
-                <OneBigProject title={'Design pour les Commerces'} image={ImageProjectE3}
-                    description={'Nous avons une grande expérience dans l’agencement de point de vente, et l’aménagement de bureaux. Quelle que soit la typologie du point de vente, sa vocation, sa stratégie et son positionnement.'}
-                    color={'#F4EFE4'} textcolor={'#222'} theKey={5} side={'right'} The_Experience={false} link={'/Pharmacie1'} />
-
-
-<OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
-                    description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
-                    color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/City1'} side={'left'} The_Experience={false} />
+<OneBigProject title={'Immeuble Talles'} image={ImageProjectP1}
+                    description={`Les plans d'étage isométriques offrent une vue en trois dimensions des configurations d'un bien immobilier, aidant les clients à mieux comprendre la disposition spatiale et la fonctionnalité des différentes zones.`}
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={5} link={'/Immeuble-Talles'} side={'right'} The_Experience={false} />
 
 
 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectS1}
     description={`Visualisez et concrétisez vos projets d'aménagement grâce à l'accompagnement de nos architectes d'intérieur.`}
-    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={7} link={'/VillaSamb'} The_Experience={false} side={'right'} />
+    color={'#2b2828'} textcolor={'#f1f1f1'} theKey={6} link={'/VillaSamb'} The_Experience={false} side={'left'} />
+
+<OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
+                    description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
+                    color={'#F1F1F1'} textcolor={'#222'} theKey={7} link={'/City1'} side={'right'} The_Experience={false} />
+
+
 
                 <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
                     description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
-                    color={'#F1F1F1'} textcolor={'#222'} theKey={8} side={'left'} link={'/Gym'} The_Experience={false} />
+                    color={'#ffd89e'} textcolor={'#222'} theKey={8} side={'left'} link={'/Gym'} The_Experience={false} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
@@ -285,7 +288,7 @@ function TheGallery({ GetImageOnAccueil }) {
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Immeuble Talles'} date={'27 Mai, 2022'} />
 
         </div>
     );
