@@ -193,7 +193,7 @@ function Accueil({ GetImageToApp }) {
 
 
 
-<OneBigProject title={'Résidence La Pierre de Lune'} image={ImageProjectP1}
+<OneBigProject title={'Résidence Pierre de Lune'} image={ImageProjectP1}
                     description={`Les plans d'étage isométriques offrent une vue en trois dimensions des configurations d'un bien immobilier, aidant les clients à mieux comprendre la disposition spatiale et la fonctionnalité des différentes zones.`}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={5} link={'/Immeuble-Talles'} side={'right'} The_Experience={false} />
 
@@ -288,7 +288,7 @@ function TheGallery({ GetImageOnAccueil }) {
             <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Résidence La Pierre de Lune'} date={'27 Mai, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Résidence Pierre de Lune'} date={'27 Mai, 2022'} />
 
         </div>
     );
