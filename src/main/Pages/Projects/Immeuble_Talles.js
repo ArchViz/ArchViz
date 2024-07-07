@@ -70,7 +70,7 @@ function ImmeubleTalles({ }) {
 
                 <div className='project_display'>
                     <h1 className='project_title'>
-                       Immeuble Talles
+                       Résidence La Pierre de Lune
                     </h1>
                     <h3 className='project_description'>
                         par Pape Momar Ndiaye | 3 Juin, 2024 |

@@ -83,7 +83,7 @@ const Travaux = () => {
                     description={"Des designs Modernes et épurés. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#a39081'} textcolor={'#222'} theKey={5} link={'/Villa_Onomo'} side={'left'} The_Experience={false} />
 
-                <OneBigProject title={'Immeuble Talles'} image={ImageProjectC3}
+                <OneBigProject title={'Résidence La Pierre de Lune'} image={ImageProjectC3}
                     description={`Les plans d'étage isométriques offrent une vue en trois dimensions des configurations d'un bien immobilier, aidant les clients à mieux comprendre la disposition spatiale et la fonctionnalité des différentes zones.`}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/Immeuble-Talles'} side={'right'} The_Experience={false} />
 
