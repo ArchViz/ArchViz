@@ -113,4 +113,6 @@ function Pharmacie1({ }) {
 
 
 
+
+
 export default Pharmacie1;

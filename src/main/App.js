@@ -33,7 +33,7 @@ function TheLoader() {
 const ImmeubleTalles = React.lazy(() => import('./Pages/Projects/Immeuble_Talles'));
 const SmallHouse1 = React.lazy(() => import('./Pages/Projects/Villa_Onomo'));
 const Hangar1 = React.lazy(() => import('./Pages/Projects/Hangar_1'));
-const Touba = React.lazy(() => import('./Pages/Projects/Touba'));
+const DesignBureau = React.lazy(() => import('./Pages/Projects/Design_Office'));
 const Pharmacie1 = React.lazy(() => import('./Pages/Projects/Pharmacie_1'));
 const AppartementFA = React.lazy(() => import('./Pages/Projects/Appartement-F4-A'));
 const Gym = React.lazy(() => import('./Pages/Projects/Gym'));
@@ -96,7 +96,7 @@ function App() {
             <Route exact path="/Immeuble-Talles" element={<Suspense fallback={<TheLoader />}><ImmeubleTalles /></Suspense>} />
             <Route exact path="/Villa_Onomo" element={<Suspense fallback={<TheLoader />}><SmallHouse1 /></Suspense>} />
             <Route exact path="/Hangar1" element={<Suspense fallback={<TheLoader />}><Hangar1 /></Suspense>} />
-            <Route exact path="/Touba" element={<Suspense fallback={<TheLoader />}><Touba /></Suspense>} />
+            <Route exact path="/Design_Bureau" element={<Suspense fallback={<TheLoader />}>< DesignBureau /></Suspense>} />
             <Route exact path="/Pharmacie1" element={<Suspense fallback={<TheLoader />}><Pharmacie1 /></Suspense>} />
             <Route exact path="/Appartement-F4-A" element={<Suspense fallback={<TheLoader />}><AppartementFA /></Suspense>} />
             <Route exact path="/Gym" element={<Suspense fallback={<TheLoader />}><Gym /></Suspense>} />
