@@ -1,20 +1,18 @@
 import { React, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
-
 import ImageProjectA4 from '../Style/Images/Project/Villa-Onomo-4.jpg';
 import ImageProjectB3 from '../Style/Images/Project/City-0.jpg';
-// import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
+
 import ImageProjectE7 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
-// import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
+
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectS2 from '../Style/Images/Project/Villa_Samb-2.jpg';
 import ImageProjectI4 from '../Style/Images/Project/Villa_B-8.jpg';
 import ImageProjectJ4 from '../Style/Images/Project/Appartement-F4-A-1.jpg';
 import ImageProjectk4 from '../Style/Images/Project/Immeuble-Talles-8.jpg';
-
 
 function Services({ }) {
     useEffect(() => {
