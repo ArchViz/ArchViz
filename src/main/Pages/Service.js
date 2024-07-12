@@ -56,7 +56,6 @@ function Services({ }) {
                         <OneGalerieElement image={ImageProjectA4} title={'Villa Onomo'} link={'/Villa_Onomo'} date={'25 juin, 2024'} />
                         <OneGalerieElement link={'/VillaSamb'} image={ImageProjectS2} title={'Villa Samb'} date={'05 Mai, 2024'} />
                         <OneGalerieElement  link={'/Villa-Saly'} image={ImageProjectI4} title={'Villa Saly'} date={'06 Juin, 2023'} />
-
                         <OneGalerieElement image={ImageProjectJ4} title={'design intérieur'} link={'/Appartement-F4-A'} date={'25 Septembre, 2023'} />
                         <OneGalerieElement image={ImageProjectE7} title={'Design pour les Commerces'} link={'/Pharmacie1'} date={'27 Mai, 2022'} />
                         <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/City1"} date={'27 Mai, 2022'} />
