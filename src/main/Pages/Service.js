@@ -59,7 +59,6 @@ function Services({ }) {
                         <OneGalerieElement image={ImageProjectJ4} title={'design intérieur'} link={'/Appartement-F4-A'} date={'25 Septembre, 2023'} />
                         <OneGalerieElement image={ImageProjectE7} title={'Design pour les Commerces'} link={'/Pharmacie1'} date={'27 Mai, 2022'} />
                         <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/City1"} date={'27 Mai, 2022'} />
-
                     </div>
                 } color={'#F1F1F1'}
             />

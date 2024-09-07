@@ -17,6 +17,10 @@ import ImageProjectS1 from '../Style/Images/Project/Villa_Samb-1.jpg';
 
 import ImageProjectO1 from '../Style/Images/Project/Villa-Onomo-2.jpg';
 
+import ImageProjectQ1 from '../Style/Images/Project/Villa-Sarr-1.jpg';
+import ImageProjectQ10 from '../Style/Images/Project/Villa-Sarr-10.jpg';
+
+
 const Travaux = () => {
 
     useEffect(() => {
@@ -86,7 +90,6 @@ const Travaux = () => {
                     description={`Les plans d'étage isométriques offrent une vue en trois dimensions des configurations d'un bien immobilier, aidant les clients à mieux comprendre la disposition spatiale et la fonctionnalité des différentes zones.`}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={6} link={'/Immeuble-Talles'} side={'right'} The_Experience={false}/>
 
-
                 <OneBigProject title={'Villa Al Amin'} image={ImageProjectL1}
                     description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide..."}
                     color={'#664f3c'} textcolor={'#F4EFE4'} theKey={7} link={'/VillaTerangaAlAmin'} side={'left'}
@@ -111,6 +114,11 @@ const Travaux = () => {
                 <OneBigProject title={'Design Bureau'} image={ImageProjectD3}
                     description={'Visualisez votre bureau avant de le construire. La modélisation 3D vous permet d\'explorer les agencements, le placement des meubles et les éléments de design, le tout virtuellement.'}
                     color={'#222'} textcolor={'#f1f1f1'} theKey={12} link={'/Design_Bureau'} The_Experience={false} side={'right'} />
+
+<OneBigProject title={'Villa Sarr'} image={ImageProjectQ1}
+    description={`Notre équipe d'experts est là pour vous accompagner à chaque étape de vos projets, de la conception à la réalisation. Nous offrons des services personnalisés afin de répondre à toutes vos attentes.`}
+    color={'#f1f1f1'} textcolor={'#000'} theKey={13} link={'/VillaSarr'} The_Experience={false} side={'left'} />
+
             </section>
         </div>
     );

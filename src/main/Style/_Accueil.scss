@@ -380,7 +380,7 @@
         grid-template-rows: repeat(5, 1fr);
 
         .one_galerie_element {
-            width: calc(100% -.01em);
+            width: calc(100% - 0.01em);
             @include cent();
             display: grid;
             grid-template-columns: 1fr;
